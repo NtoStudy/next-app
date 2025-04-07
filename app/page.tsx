@@ -1,7 +1,7 @@
 const Page = () => {
   return (
-    <div>
-      hello world
+    <div className='bg-red-500 h-screen'>
+      Hello World
     </div>
   );
 };

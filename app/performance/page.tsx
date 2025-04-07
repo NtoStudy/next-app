@@ -1,0 +1,13 @@
+import Hero from '@/app/components/hero'
+import React from 'react'
+import performanceSrc from '@/public/performance.jpg'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Performance',
+}
+export default function Page() {
+  return (
+    <Hero imgUrl={performanceSrc} altTxt="Performance" content="Performance~~~" />
+  )
+}
